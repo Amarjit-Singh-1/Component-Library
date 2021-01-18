@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
     <title>Component Library</title>
   </head>
+  <!--https://tailwindcss.com/ , -->
   <body>
-    <h1>Welcome to my Component Library</h1>
-    <p>some text</p>
+    <h1 id="lib-header">Welcome to my Component Library</h1>
+    <p class="para">some text</p>
     <hr />
     <h2>@Typography</h2>
     <h1>This is the biggest heading</h1>
@@ -18,19 +25,21 @@
     <hr />
     <h2>@containers</h2>
     <h4>fluid container</h4>
-    <div>
+    <div class="container container-fluid">
       This is a fluid container.It will go full width of page . With some margin
     </div>
     <h4>center container</h4>
-    <div>
+    <div class="container container-center">
       This is a center container.It will go till a given width and center
       content
     </div>
 
     <hr />
     <h2>@links</h2>
-    <a href="#">Primary Link</a>
-    <a href="#">Secondary Link</a>
+    <a href="#" class="link primary-link">Primary Link</a>
+    <a href="#" class="link secondary-link">Secondary Link</a>
+    <br />
+    <br />
 
     <hr />
     <h2>@lists</h2>
