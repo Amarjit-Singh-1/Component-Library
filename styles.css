@@ -35,3 +35,13 @@ body {
   border-radius: 0.5rem;
   border: 1px solid var(--p);
 }
+
+/**lists**/
+.list-non-bullet {
+  list-style: none;
+}
+
+.inline-list {
+  display: inline;
+  padding-left: 0.5rem;
+}
